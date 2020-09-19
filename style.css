@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.icon img {
+    width: 50px;
+}
+
+.banner {
+    width: 1250px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100px;
+}
+
+.nav-list {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 500px;
+    margin: 0px auto;
+}
+
+.nav-list li {
+    margin-left: 30px;
+}
+
+.jumbotron {
+    max-width: 100%;
+    width: 1250px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.jumbotron img {
+    width: 1000px;
+}
+
+.text {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: azure;
+}
+
+.point {
+    align-items: center;
+    text-align: center;
+    width: 1250px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.isi {
+    justify-content: space-between;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 0 1px 2px 0px grey;
+}
+
+.text-isi h1 {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.isi .text-isi,
+.paragraph-isi {
+    width: 200px;
+}
+
+.paragraph-isi p {
+    padding: 20px;
+}
+
+footer {
+    width: 1250px;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.lelang {
+    text-align: center;
+    width: 1250px;
+    margin: 0px auto;
+}
+
+.daftar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
