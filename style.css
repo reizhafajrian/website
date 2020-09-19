@@ -104,11 +104,7 @@
     padding: 20px;
 }
 
-footer {
-    width: 1250px;
-    max-width: 100%;
-    margin: 0px auto;
-}
+
 
 .footer-container {
     width: 100%;
@@ -125,4 +121,86 @@ footer {
 .daftar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    justify-items: center;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.harga-tahun{
+    font-size: 20px;
+}
+
+#nama-mobil{
+    font-size: 30px;
+    font-weight: 800;
+}
+.daftar-mobil
+{
+    justify-content: center;
+    margin-top: 40px;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 2px 0px #888; /* the shadow */
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+.btn-lelang{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.btn-lelang button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.title{
+    width: 160px;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:black;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:blueviolet;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+}
+
+.footer ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.footer ul{
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+  
+    width: max-content;
+   
+}
+footer{
+    background-color: #888;
+    text-align: center;
+
+    height: 100px;
 }

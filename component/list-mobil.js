@@ -1,18 +1,19 @@
  class DaftarMobil extends HTMLElement {
-     connectedCallback() {
+     set daftar(daftar) {
+         this._daftar=daftar;
          this.render()
      }
      render() {
          this.innerHTML = `  <div class="daftar-mobil">
          <div class="title">
-             <p id="nama-mobil">Honda</p>
+             <p id="nama-mobil">${this._daftar.nama}</p>
          </div>
-         <img src="assets/icon_cars_assets.jpg" alt="" width="300px">
+         <img src="${this._daftar.gambar}" alt="" width="300px">
          <div class="harga-tahun">
-             <p id="tahun">2018</p>
-             <p id="harga">1,5 Milyar</p>
+             <p id="tahun">${this._daftar.Tahun}</p>
+             <p id="harga">${this._daftar.Harga}</p>
          </div>
-         <div>
+         <div class="btn-lelang">
              <button>Ikut Lelang</button>
          </div>
      </div>`;
